@@ -78,7 +78,7 @@
             >;
         };
 
-        layer_Symbols {
+        layer_Sym {
             bindings = <
  &trans           &trans          &trans         &trans                &trans          &trans            &trans                                                  &trans            &trans                 &trans             &trans     &trans     &trans  &trans
  &trans  &kp EXCLAMATION       &kp TILDE      &kp SLASH      &kp LEFT_BRACKET       &kp MINUS            &trans                                                  &trans          &kp PLUS      &kp RIGHT_BRACKET   &kp SINGLE_QUOTE  &kp COLON   &kp HASH  &trans
