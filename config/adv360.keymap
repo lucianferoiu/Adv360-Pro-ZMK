@@ -50,11 +50,11 @@
 
         layer_keypad {
             bindings = <
- &trans           &trans       &trans     &trans     &trans      &trans              &trans                                                                &trans        &trans        &trans        &trans        &trans     &trans  &trans
- &trans  &kp EXCLAMATION    &kp TILDE  &kp SLASH  &kp CARET   &kp MINUS              &trans                                                                &trans      &kp PLUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp STAR  &trans
- &trans     &kp QUESTION  &kp PERCENT     &kp AT   &kp HASH  &kp DOLLAR              &trans  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL     &trans  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL  &trans
- &trans    &kp AMPERSAND    &kp COLON  &kp COMMA    &kp DOT   &kp UNDER                                 &kp HOME                  &kp PG_UP                           &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &trans
- &trans           &trans       &trans     &trans     &trans                        &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp KP_N0                      &trans        &trans        &trans     &trans  &trans
+ &trans           &trans       &trans     &trans     &trans      &trans            &trans                                                  &trans        &trans        &trans        &trans        &trans     &trans  &trans
+ &trans  &kp EXCLAMATION    &kp TILDE  &kp SLASH  &kp CARET   &kp MINUS            &trans                                                  &trans      &kp PLUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp STAR  &trans
+ &trans     &kp QUESTION  &kp PERCENT     &kp AT   &kp HASH  &kp DOLLAR            &trans  &trans  &trans                  &trans  &trans  &trans  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL  &trans
+ &trans    &kp AMPERSAND    &kp COLON  &kp COMMA    &kp DOT   &kp UNDER                            &trans                  &trans                     &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &trans
+ &trans           &trans       &trans     &trans     &trans                        &trans  &trans  &trans                  &trans  &trans  &trans                      &trans        &trans        &trans     &trans  &trans
             >;
         };
 
