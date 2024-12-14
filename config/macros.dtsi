@@ -1,3 +1,63 @@
+macro_gui_s_down: macro_gui_s_down{
+compatible = "zmk,behavior-macro";
+label = "macro_gui_s_down";
+#binding-cells = <0>;
+bindings = <&kt LEFT_GUI>, <&kt LSHFT>, <&kp DOWN_ARROW>, <&kt LSHFT>, <&kt LEFT_GUI>;
+};
+macro_gui_s_up: macro_gui_s_up{
+compatible = "zmk,behavior-macro";
+label = "macro_gui_s_up";
+#binding-cells = <0>;
+bindings = <&kt LEFT_GUI>, <&kt LSHFT>, <&kp UP_ARROW>, <&kt LSHFT>, <&kt LEFT_GUI>;
+};
+macro_gui_s_right: macro_gui_s_right{
+compatible = "zmk,behavior-macro";
+label = "macro_gui_s_right";
+#binding-cells = <0>;
+bindings = <&kt LGUI>, <&kt LSHFT>, <&kp RIGHT_ARROW>, <&kt LSHFT>, <&kt LGUI>;
+};
+macro_gui_s_left: macro_gui_s_left{
+compatible = "zmk,behavior-macro";
+label = "macro_gui_s_left";
+#binding-cells = <0>;
+bindings = <&kt LEFT_GUI>, <&kt LSHFT>, <&kp LEFT_ARROW>, <&kt LSHFT>, <&kt LEFT_GUI>;
+};
+macro_gui_down: macro_gui_down{
+compatible = "zmk,behavior-macro";
+label = "macro_gui_down";
+#binding-cells = <0>;
+bindings = <&kt LEFT_GUI>, <&kp DOWN_ARROW>, <&kt LEFT_GUI>;
+};
+macro_gui_up: macro_gui_up{
+compatible = "zmk,behavior-macro";
+label = "macro_gui_up";
+#binding-cells = <0>;
+bindings = <&kt LEFT_GUI>, <&kp UP_ARROW>, <&kt LEFT_GUI>;
+};
+macro_gui_right: macro_gui_right{
+compatible = "zmk,behavior-macro";
+label = "macro_gui_right";
+#binding-cells = <0>;
+bindings = <&kt LEFT_GUI>, <&kp RIGHT_ARROW>, <&kt LEFT_GUI>;
+};
+macro_gui_left: macro_gui_left{
+compatible = "zmk,behavior-macro";
+label = "macro_gui_left";
+#binding-cells = <0>;
+bindings = <&kt LEFT_GUI>, <&kp LEFT_ARROW>, <&kt LEFT_GUI>;
+};
+macro_alt_s_right: macro_alt_s_right{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_s_right";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kt LSHIFT>, <&kp RIGHT_ARROW>, <&kt LSHIFT>, <&kt LALT>;
+};
+macro_alt_s_left: macro_alt_s_left{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_s_left";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kt LSHFT>, <&kp LEFT_ARROW>, <&kt LSHIFT>, <&kt LALT>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
