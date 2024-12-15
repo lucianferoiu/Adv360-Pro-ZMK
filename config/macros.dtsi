@@ -1,3 +1,27 @@
+macro_graves: macro_graves{
+compatible = "zmk,behavior-macro";
+label = "macro_graves";
+#binding-cells = <0>;
+bindings = <&kp GRAVE>, <&kp GRAVE>, <&kp LEFT_ARROW>;
+};
+macro_unix_home: macro_unix_home{
+compatible = "zmk,behavior-macro";
+label = "macro_unix_home";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp TILDE>, <&kp SLASH>;
+};
+macro_s_ins: macro_s_ins{
+compatible = "zmk,behavior-macro";
+label = "macro_s_ins";
+#binding-cells = <0>;
+bindings = <&kt LSHIFT>, <&kp INSERT>, <&kt LSHFT>;
+};
+macro_ctrl_ins: macro_ctrl_ins{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_ins";
+#binding-cells = <0>;
+bindings = <&kt LCTRL>, <&kp INSERT>, <&kp LCTRL>;
+};
 macro_gui_s_down: macro_gui_s_down{
 compatible = "zmk,behavior-macro";
 label = "macro_gui_s_down";

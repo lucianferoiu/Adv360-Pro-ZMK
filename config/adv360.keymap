@@ -53,7 +53,7 @@
  &trans  &trans  &trans          &trans           &trans  &trans            &trans                                                  &trans        &trans        &trans        &trans        &trans     &trans  &trans
  &trans   &none   &none  &macro_dquotes  &macro_brackets   &none            &trans                                                  &trans      &kp PLUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp STAR  &trans
  &trans   &none   &none   &macro_quotes    &macro_parens   &none            &trans  &trans  &trans                  &trans  &trans  &trans  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL  &trans
- &trans   &none   &none       &kp GRAVE    &macro_braces   &none                            &trans                  &trans                     &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &trans
+ &trans   &none   &none   &macro_graves    &macro_braces   &none                            &trans                  &trans                     &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH  &trans
  &trans   &none  &trans          &trans           &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                      &trans        &trans        &trans      &none  &trans
             >;
         };
@@ -70,11 +70,11 @@
 
         layer_mod {
             bindings = <
-  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none                                                                      &trans   &none              &none              &none               &none              &none   &none
-  &none         &none         &none         &none         &none         &none            &bootloader                                                                 &bootloader   &none  &macro_gui_s_left  &macro_gui_s_down     &macro_gui_s_up  &macro_gui_s_left   &none
-  &none         &none         &none         &none         &none         &none                  &to 0   &none  &bl BL_TOG                   &none   &none  &rgb_ug RGB_MEFS_CMD 5   &none     &kp LEFT_ARROW     &kp DOWN_ARROW        &kp UP_ARROW    &kp RIGHT_ARROW   &none
-  &none         &none         &none         &none         &none         &none                                 &bl BL_INC                   &none                                   &none    &macro_gui_left    &macro_gui_down       &macro_gui_up   &macro_gui_right   &none
-  &none    &bt BT_CLR         &none         &none         &none                                &none   &none  &bl BL_DEC                   &none   &none                   &none                     &trans  &macro_alt_s_left  &macro_alt_s_right              &to 0   &none
+  &none  &bt BT_SEL 0      &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none                                                                      &trans   &none              &none              &none               &none              &none   &none
+  &none         &none  &macro_unix_home            &none         &none         &none            &bootloader                                                                 &bootloader   &none  &macro_gui_s_left  &macro_gui_s_down     &macro_gui_s_up  &macro_gui_s_left   &none
+  &none         &none             &none            &none         &none         &none                  &to 0   &none  &bl BL_TOG                   &none   &none  &rgb_ug RGB_MEFS_CMD 5   &none     &kp LEFT_ARROW     &kp DOWN_ARROW        &kp UP_ARROW    &kp RIGHT_ARROW   &none
+  &none         &none             &none  &macro_ctrl_ins  &macro_s_ins         &none                                 &bl BL_INC                   &none                                   &none    &macro_gui_left    &macro_gui_down       &macro_gui_up   &macro_gui_right   &none
+  &none    &bt BT_CLR             &none            &none        &trans                                &none   &none  &bl BL_DEC                   &none   &none                   &none                     &trans  &macro_alt_s_left  &macro_alt_s_right              &to 0   &none
             >;
         };
 
