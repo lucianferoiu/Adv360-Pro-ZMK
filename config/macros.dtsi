@@ -1,3 +1,15 @@
+macro_s_del: macro_s_del{
+compatible = "zmk,behavior-macro";
+label = "macro_s_del";
+#binding-cells = <0>;
+bindings = <&kt LSHFT>, <&kp DELETE>, <&kt LSHFT>;
+};
+macro_ctrl_del: macro_ctrl_del{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_del";
+#binding-cells = <0>;
+bindings = <&kt LCTRL>, <&kp DELETE>, <&kt LCTRL>;
+};
 macro_graves: macro_graves{
 compatible = "zmk,behavior-macro";
 label = "macro_graves";
