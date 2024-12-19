@@ -50,21 +50,21 @@
 
         layer_Num_Sym {
             bindings = <
- &trans  &trans  &trans          &trans           &trans  &trans            &trans                                                  &trans        &trans        &trans        &trans        &trans         &trans   &to 0
- &trans  &trans   &none  &macro_dquotes  &macro_brackets   &none            &trans                                                  &trans      &kp PLUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &trans  &trans
- &trans   &none   &none   &macro_quotes    &macro_parens   &none            &trans  &trans  &trans                  &trans  &trans  &trans  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp EQUAL  &trans
- &trans   &none   &none   &macro_graves    &macro_braces   &none                            &trans                  &trans                     &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp COLON  &trans
- &trans   &none  &trans          &trans           &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                      &trans     &kp COMMA       &kp DOT  &kp SEMICOLON  &trans
+ &trans  &trans  &trans          &trans           &trans  &trans            &trans                                                  &trans        &trans        &trans        &trans        &trans     &trans   &to 0
+ &trans  &trans   &none  &macro_dquotes  &macro_brackets   &none            &trans                                                  &trans      &kp PLUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &trans  &trans
+ &trans   &none   &none   &macro_quotes    &macro_parens   &none            &trans  &trans  &trans                  &trans  &trans  &trans  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL  &trans
+ &trans   &none   &none   &macro_graves    &macro_braces   &none                            &trans                  &trans                     &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COLON  &trans
+ &trans   &none  &trans          &trans           &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                      &trans        &trans        &trans     &trans  &trans
             >;
         };
 
         layer_Symbols {
             bindings = <
- &trans         &trans          &trans             &trans                &trans         &trans            &trans                                                  &trans            &trans                 &trans         &trans       &trans         &trans   &to 0
- &trans         &trans       &kp TILDE  &kp DOUBLE_QUOTES      &kp LEFT_BRACKET         &kp AT            &trans                                                  &trans      &kp QUESTION      &kp RIGHT_BRACKET  &kp BACKSLASH     &kp PLUS         &trans  &trans
- &trans     &kp DOLLAR       &kp MINUS   &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp LESS_THAN            &trans  &trans  &trans                  &trans  &trans  &trans  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS       &kp PIPE     &kp STAR      &kp EQUAL  &trans
- &trans  &kp AMPERSAND  &kp UNDERSCORE          &kp GRAVE        &kp LEFT_BRACE       &kp HASH                            &trans                  &trans                   &kp EXCLAMATION        &kp RIGHT_BRACE      &kp SLASH  &kp PERCENT      &kp COLON  &trans
- &trans      &kp CARET          &trans             &trans                &trans                           &trans  &trans  &trans                  &trans  &trans  &trans                                   &trans      &kp COMMA      &kp DOT  &kp SEMICOLON  &trans
+ &trans         &trans          &trans             &trans                &trans         &trans            &trans                                                  &trans            &trans                 &trans         &trans       &trans     &trans   &to 0
+ &trans         &trans       &kp TILDE  &kp DOUBLE_QUOTES      &kp LEFT_BRACKET         &kp AT            &trans                                                  &trans      &kp QUESTION      &kp RIGHT_BRACKET  &kp BACKSLASH     &kp PLUS     &trans  &trans
+ &trans     &kp DOLLAR       &kp MINUS   &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp LESS_THAN            &trans  &trans  &trans                  &trans  &trans  &trans  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS       &kp PIPE     &kp STAR  &kp EQUAL  &trans
+ &trans  &kp AMPERSAND  &kp UNDERSCORE          &kp GRAVE        &kp LEFT_BRACE       &kp HASH                            &trans                  &trans                   &kp EXCLAMATION        &kp RIGHT_BRACE      &kp SLASH  &kp PERCENT  &kp COLON  &trans
+ &trans      &kp CARET          &trans             &trans                &trans                           &trans  &trans  &trans                  &trans  &trans  &trans                                   &trans         &trans       &trans     &trans  &trans
             >;
         };
 
