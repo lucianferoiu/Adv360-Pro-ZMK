@@ -15,8 +15,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/rgb.h>
+#include <dt-bindings/zmk/backlight.h>
 
 / {
   behaviors {
@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
-          &kp ESC       &kp F1      &kp F2                 &kp F3            &kp F4                 &kp F5                     &kp F6                                                                                   &kp F7                     &kp F8        &kp F9              &kp F10    &kp F11        &kp F12   &kp PRINTSCREEN
-       &caps_word        &kp Q       &kp W                  &kp E             &kp R                  &kp T                     &tog 3                                                                                   &tog 1                      &kp Y         &kp U                &kp I      &kp O          &kp P            &tog 3
-            &none        &kp A       &kp S                  &kp D             &kp F                  &kp G            &mt LCTRL ENTER      &kp HOME      &kp END                          &kp LEFT    &kp RIGHT  &mt RCTRL ESC                      &kp T         &kp H                &kp J      &kp K          &kp L             &none
- &mt LCTRL ESCAPE        &kp Z       &kp X                  &kp C             &kp V  &mt LEFT_SHIFT DELETE                                           &kp PAGE_UP                      &kp UP_ARROW                              &mt RIGHT_SHIFT BACKSPACE         &kp B                &kp N      &kp M  &kp SEMICOLON  &mt RCTRL RETURN
-   &sk LEFT_SHIFT  &lt 4 MINUS  &lt 3 EXCL  &mt LEFT_GUI QUESTION  &mt LEFT_ALT TAB                                       &lt 2 SPACE  &lt 1 ESCAPE  &lt 3 PG_DN                  &lt 3 DOWN_ARROW  &lt 1 ENTER    &lt 2 SPACE                             &mt RALT TAB  &mt RIGHT_GUI COMMA  &lt 3 DOT    &lt 4 EQUAL   &sk RIGHT_SHIFT
+       &kp ESCAPE       &kp F1      &kp F2                 &kp F3            &kp F4      &kp F5                     &kp F6                                                                                   &kp F7         &kp F8        &kp F9              &kp F10    &kp F11        &kp F12   &kp PRINTSCREEN
+       &caps_word        &kp Q       &kp W                  &kp E             &kp R       &kp T                     &tog 3                                                                                   &tog 1          &kp Y         &kp U                &kp I      &kp O          &kp P        &caps_word
+         &kp HOME        &kp A       &kp S                  &kp D             &kp F       &kp G            &mt LCTRL ENTER      &kp HOME      &kp END                          &kp LEFT    &kp RIGHT  &mt RCTRL ESC          &kp T         &kp H                &kp J      &kp K          &kp L           &kp END
+ &mt LCTRL ESCAPE        &kp Z       &kp X                  &kp C             &kp V  &kp DELETE                                           &kp PAGE_UP                      &kp UP_ARROW                              &kp BACKSPACE         &kp B                &kp N      &kp M  &kp SEMICOLON  &mt RCTRL RETURN
+   &sk LEFT_SHIFT  &lt 4 MINUS  &lt 3 EXCL  &mt LEFT_GUI QUESTION  &mt LEFT_ALT TAB                            &lt 2 SPACE  &lt 1 ESCAPE  &lt 3 PG_DN                  &lt 3 DOWN_ARROW  &lt 1 ENTER    &lt 2 SPACE                 &mt RALT TAB  &mt RIGHT_GUI COMMA  &lt 3 DOT    &lt 4 EQUAL   &sk RIGHT_SHIFT
             >;
         };
 
@@ -70,11 +70,11 @@
 
         layer_mod {
             bindings = <
-  &none  &bt BT_SEL 0      &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none                                                                          &trans   &none              &none              &none               &none              &none   &to 0
-  &none         &none  &macro_unix_home            &none         &none         &none            &bootloader                                                                     &bootloader   &none  &macro_gui_s_left  &macro_gui_s_down     &macro_gui_s_up  &macro_gui_s_left  &trans
-  &none         &none             &none            &none         &none         &none                  &none  &bt BT_CLR   &none                  &bl BL_TOG   &none  &rgb_ug RGB_MEFS_CMD 5   &none     &kp LEFT_ARROW     &kp DOWN_ARROW        &kp UP_ARROW    &kp RIGHT_ARROW   &none
-  &none         &none      &macro_s_del  &macro_ctrl_ins  &macro_s_ins         &none                                      &none                  &bl BL_INC                                   &none    &macro_gui_left    &macro_gui_down       &macro_gui_up   &macro_gui_right   &none
-  &none         &none             &none            &none        &trans                                &none       &none  &trans                  &bl BL_DEC   &none                   &none                     &trans  &macro_alt_s_left  &macro_alt_s_right         &kp INSERT   &none
+  &none  &bt BT_SEL 0      &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4             &bt BT_CLR                                                                  &trans   &none              &none              &none               &none              &none       &to 0
+  &none         &none  &macro_unix_home            &none         &none         &none            &bootloader                                                             &bootloader   &none  &macro_gui_s_left  &macro_gui_s_down     &macro_gui_s_up  &macro_gui_s_left      &trans
+  &none         &none             &none            &none         &none         &none                  &none   &none   &none                   &none   &none  &rgb_ug RGB_MEFS_CMD 5   &none     &kp LEFT_ARROW     &kp DOWN_ARROW        &kp UP_ARROW    &kp RIGHT_ARROW  &bl BL_TOG
+  &none         &none      &macro_s_del  &macro_ctrl_ins  &macro_s_ins         &none                                  &none                   &none                                   &none    &macro_gui_left    &macro_gui_down       &macro_gui_up   &macro_gui_right  &bl BL_INC
+  &none         &none             &none            &none        &trans                                &none   &none   &none                   &none   &none                   &none                      &none  &macro_alt_s_left  &macro_alt_s_right              &none  &bl BL_DEC
             >;
         };
 
