@@ -14,6 +14,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
@@ -40,11 +41,11 @@
 
         default_layer {
             bindings = <
-       &kp ESCAPE       &kp F1      &kp F2                 &kp F3            &kp F4      &kp F5                     &kp F6                                                                                   &kp F7         &kp F8        &kp F9              &kp F10    &kp F11        &kp F12   &kp PRINTSCREEN
-       &caps_word        &kp Q       &kp W                  &kp E             &kp R       &kp T                     &tog 3                                                                                   &tog 1          &kp Y         &kp U                &kp I      &kp O          &kp P        &caps_word
-         &kp HOME        &kp A       &kp S                  &kp D             &kp F       &kp G            &mt LCTRL ENTER      &kp HOME      &kp END                          &kp LEFT    &kp RIGHT  &mt RCTRL ESC          &kp T         &kp H                &kp J      &kp K          &kp L           &kp END
- &mt LCTRL ESCAPE        &kp Z       &kp X                  &kp C             &kp V  &kp DELETE                                           &kp PAGE_UP                      &kp UP_ARROW                              &kp BACKSPACE         &kp B                &kp N      &kp M  &kp SEMICOLON  &mt RCTRL RETURN
-   &sk LEFT_SHIFT  &lt 4 MINUS  &lt 3 EXCL  &mt LEFT_GUI QUESTION  &mt LEFT_ALT TAB                            &lt 2 SPACE  &lt 1 ESCAPE  &lt 3 PG_DN                  &lt 3 DOWN_ARROW  &lt 1 ENTER    &lt 2 SPACE                 &mt RALT TAB  &mt RIGHT_GUI COMMA  &lt 3 DOT    &lt 4 EQUAL   &sk RIGHT_SHIFT
+       &kp ESCAPE    &kp F1      &kp F2                 &kp F3            &kp F4      &kp F5                     &kp F6                                                                                   &kp F7         &kp F8        &kp F9              &kp F10    &kp F11        &kp F12   &kp PRINTSCREEN
+       &caps_word     &kp Q       &kp W                  &kp E             &kp R       &kp T                     &tog 3                                                                                   &tog 1          &kp Y         &kp U                &kp I      &kp O          &kp P    &kt LEFT_SHIFT
+         &kp HOME     &kp A       &kp S                  &kp D             &kp F       &kp G            &mt LCTRL ENTER      &kp HOME      &kp END                          &kp LEFT    &kp RIGHT  &mt RCTRL ESC      &kp MINUS         &kp H                &kp J      &kp K          &kp L           &kp END
+ &mt LCTRL ESCAPE     &kp Z       &kp X                  &kp C             &kp V  &kp DELETE                                           &kp PAGE_UP                      &kp UP_ARROW                              &kp BACKSPACE         &kp B                &kp N      &kp M  &kp SEMICOLON  &mt RCTRL RETURN
+   &sk LEFT_SHIFT  &lt 4 AT  &lt 3 EXCL  &mt LEFT_GUI QUESTION  &mt LEFT_ALT TAB                            &lt 2 SPACE  &lt 1 ESCAPE  &lt 3 PG_DN                  &lt 3 DOWN_ARROW  &lt 1 ENTER    &lt 2 SPACE                 &mt RALT TAB  &mt RIGHT_GUI COMMA  &lt 3 DOT    &lt 4 EQUAL   &sk RIGHT_SHIFT
             >;
         };
 
@@ -78,13 +79,13 @@
             >;
         };
 
-        layer_Extras {
+        layer_Accents {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans   &to 0
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans        &trans        &trans        &trans  &trans       &trans            &trans                                                  &trans  &trans        &trans       &trans  &trans  &trans   &to 0
+ &trans  &macro_ro_ia  &macro_fr_e2  &macro_fr_e1  &trans  &macro_ro_t            &trans                                                  &trans  &trans        &trans  &macro_ro_i  &trans  &trans  &trans
+ &trans   &macro_ro_a   &macro_ro_s        &trans  &trans       &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans        &trans       &trans  &trans  &trans  &trans
+ &trans        &trans        &trans        &trans  &trans       &trans                            &trans                  &trans                  &trans  &macro_de_ss       &trans  &trans  &trans  &trans
+ &trans        &trans        &trans        &trans  &trans                         &trans  &trans  &trans                  &trans  &trans  &trans                &trans       &trans  &trans  &trans  &trans
             >;
         };
 
