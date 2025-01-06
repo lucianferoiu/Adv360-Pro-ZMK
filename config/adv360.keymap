@@ -41,11 +41,11 @@
 
         default_layer {
             bindings = <
-       &kp ESCAPE    &kp F1                    &kp F2          &kp F3            &kp F4      &kp F5                 &kp F6                                                                                 &kp F7         &kp F8        &kp F9      &kp F10            &kp F11        &kp F12   &kp PRINTSCREEN
-       &caps_word     &kp Q                     &kp W           &kp E             &kp R       &kp T                 &tog 5                                                                                 &tog 1          &kp Y         &kp U        &kp I              &kp O          &kp P        &caps_word
-       &lt 3 HOME     &kp A                     &kp S           &kp D             &kp F       &kp G             &kt LSHIFT      &kp HOME      &kp END                          &kp LEFT    &kp RIGHT    &kt RSHFT      &kp MINUS         &kp H        &kp J              &kp K          &kp L         &lt 3 END
- &mt LCTRL ESCAPE     &kp Z                     &kp X           &kp C             &kp V  &kp DELETE                                       &kp PAGE_UP                      &kp UP_ARROW                            &kp BACKSPACE         &kp B        &kp N              &kp M  &kp SEMICOLON  &mt RCTRL RETURN
-   &sk LEFT_SHIFT  &lt 6 AT  &mt LEFT_GUI EXCLAMATION  &lt 5 QUESTION  &mt LEFT_ALT TAB                        &lt 2 SPACE  &lt 1 ESCAPE  &lt 3 PG_DN                  &lt 3 DOWN_ARROW  &lt 1 ENTER  &lt 2 SPACE                 &mt RALT TAB  &lt 5 COMMA  &mt RIGHT_GUI DOT    &lt 4 EQUAL   &sk RIGHT_SHIFT
+       &kp ESCAPE    &kp F1      &kp F2                 &kp F3            &kp F4      &kp F5                 &kp F6                                                                                 &kp F7         &kp F8        &kp F9              &kp F10    &kp F11        &kp F12   &kp PRINTSCREEN
+       &caps_word     &kp Q       &kp W                  &kp E             &kp R       &kp T                 &tog 5                                                                                 &tog 1          &kp Y         &kp U                &kp I      &kp O          &kp P        &caps_word
+       &lt 3 HOME     &kp A       &kp S                  &kp D             &kp F       &kp G             &kt LSHIFT      &kp HOME      &kp END                          &kp LEFT    &kp RIGHT    &kt RSHFT      &kp MINUS         &kp H                &kp J      &kp K          &kp L         &lt 3 END
+ &mt LCTRL ESCAPE     &kp Z       &kp X                  &kp C             &kp V  &kp DELETE                                       &kp PAGE_UP                      &kp UP_ARROW                            &kp BACKSPACE         &kp B                &kp N      &kp M  &kp SEMICOLON  &mt RCTRL RETURN
+   &sk LEFT_SHIFT  &lt 6 AT  &lt 5 EXCL  &mt LEFT_GUI QUESTION  &mt LEFT_ALT TAB                        &lt 2 SPACE  &lt 1 ESCAPE  &lt 3 PG_DN                  &lt 3 DOWN_ARROW  &lt 1 ENTER  &lt 2 SPACE                 &mt RALT TAB  &mt RIGHT_GUI COMMA  &lt 5 DOT    &lt 4 EQUAL   &sk RIGHT_SHIFT
             >;
         };
 
